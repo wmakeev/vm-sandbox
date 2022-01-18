@@ -1,6 +1,6 @@
 {
   "name": "@wmakeev/vm-sandbox",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JavaScript code sandbox based on node.js vm module",
   "scripts": {
     "test": "node test",
