@@ -1,0 +1,52 @@
+{
+  "name": "@wmakeev/vm-sandbox",
+  "version": "0.0.0",
+  "description": "JavaScript code sandbox based on node.js vm module",
+  "scripts": {
+    "test": "node test",
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "release": "np"
+  },
+  "files": [
+    "src/"
+  ],
+  "main": "src/index.js",
+  "_types": "src/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "vm",
+    "sandbox",
+    "metavm",
+    "testing",
+    "isolation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "quoteProps": "consistent",
+    "trailingComma": "none",
+    "arrowParens": "avoid"
+  },
+  "np": {
+    "yarn": false
+  },
+  "author": {
+    "name": "Vitaliy V. Makeev",
+    "email": "w.makeev@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.18.7",
+    "@types/tape": "^4.13.2",
+    "tape": "^5.4.1"
+  }
+}

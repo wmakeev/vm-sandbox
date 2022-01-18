@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES2020" // Node 14
+    ],
+    "strict": true,
+    "allowJs": true,
+    "alwaysStrict": true,
+    "checkJs": true,
+    "moduleResolution": "Node",
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*",
+    "test/**/*"
+  ]
+}
